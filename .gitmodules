@@ -1,0 +1,6 @@
+[submodule "chinese-chess-frontend"]
+	path = chinese-chess-frontend
+	url = git@github.com:math-zhuxy/ChineseChess-frontend.git
+[submodule "chinese-chess-backend"]
+	path = chinese-chess-backend
+	url = git@github.com:math-zhuxy/ChineseChess-backend.git
