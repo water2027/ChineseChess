@@ -25,6 +25,7 @@ services:
       redis:
         condition: service_started
     environment:
+      FRONTEND_URL: http://localhost
       DB_HOST: mysql
       DB_USERNAME: root
       DB_PASSWORD: example
