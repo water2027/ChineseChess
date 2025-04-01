@@ -9,9 +9,6 @@ services:
       - "80:80"
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
-    environment:
-      VITE_API_URL: http://localhost:8080  # 后端API的URL
-      VITE_WEBSOCKET_URL: ws://localhost:8080/ws  # WebSocket的URL
     depends_on:
       - backend
 
