@@ -24,7 +24,7 @@ services:
       redis:
         condition: service_started
     environment:
-      FRONTEND_URL: http://localhost
+      FRONTEND_URL: ${FRONTEND_URL}
       DB_HOST: mysql
       DB_USERNAME: root
       DB_PASSWORD: example
@@ -34,6 +34,7 @@ services:
       REDIS_HOST: redis
       REDIS_PORT: 6379
       GO_ENV: docker
+      GIN_MODE: release
       # REDIS_PASSWORD: 
       
   mysql:

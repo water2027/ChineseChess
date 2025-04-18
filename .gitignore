@@ -1,1 +1,3 @@
-test.http
+.http
+.env
+.vscode
